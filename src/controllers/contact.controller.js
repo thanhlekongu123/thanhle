@@ -17,6 +17,7 @@ exports.create = async (req, res, next) => {
         );
     }
 };
+
 exports.findAll = async (req, res, next) => {
     let contacts = []
 
